@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	overflow: hidden;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 150%;
+}
+
+#header {
+	position: absolute;
+	display: block;
+	top: 10px;
+	z-index: 2;
+	margin: 0px auto;
+	text-align: center;
+	width: 100%;
+}
+
+.hDiv {
+	display: inline-table;
+	vertical-align: middle;
+}
+.hDiv a, .hDiv img {
+	display: table-cell;
+	text-align: center;
+}
+
+#aboutLink, #portfolioLink {
+	position: relative;
+	margin-right: 5%;
+}
+
+#fbLink, #contactLink {
+	position: relative;
+	margin-left: 5%;
+}
+
+#slider {
+	max-width: 1600px;
+	max-height: 1000px;
+	margin: 0 auto;
+}
+
+#slide-group, .slides {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.slides {
+	display: none;
+	z-index: -1;
+}
+
+.slides:first-child {
+	display:block;
+}
+
+.LRBtns {
+	position: absolute;
+	display: table;
+	border: 1px solid #fff;
+	opacity: 0.3;
+	top: 35%;
+	height: 25%;
+	z-index: 2;
+	padding: 10px;
+	background: #fff;
+	font-size: 400%;
+	line-height: 0.7em;
+}
+
+.LRBtns p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	top: 0;
+}
+
+.LRBtns:hover {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+#leftBtn {
+	left: 0;
+}
+
+#rightBtn {
+	right: 0;
+}
