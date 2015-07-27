@@ -1,13 +1,20 @@
 body {
+	position: relative;
 	font-family: Arial, sans-serif;
-	margin: 0px;
+	margin: 0px auto;
 	overflow: hidden;
+	max-width: 1360px;
+	max-height: 768px;
 }
 
 a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 150%;
+}
+
+a:hover {
+	color: #666666;
 }
 
 #header {
@@ -18,12 +25,14 @@ a {
 	margin: 0px auto;
 	text-align: center;
 	width: 100%;
+	min-width: 800pt;
 }
 
 .hDiv {
 	display: inline-table;
 	vertical-align: middle;
 }
+
 .hDiv a, .hDiv img {
 	display: table-cell;
 	text-align: center;
@@ -40,8 +49,8 @@ a {
 }
 
 #slider {
-	max-width: 1600px;
-	max-height: 1000px;
+	max-width: 1360px;
+	max-height: 768px;
 	margin: 0 auto;
 }
 
@@ -66,7 +75,7 @@ a {
 	border: 1px solid #fff;
 	opacity: 0.3;
 	top: 35%;
-	height: 25%;
+	height: 50%;
 	z-index: 2;
 	padding: 10px;
 	background: #fff;
