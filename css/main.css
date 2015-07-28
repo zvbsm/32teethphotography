@@ -13,6 +13,12 @@ a {
 	font-size: 150%;
 }
 
+section {
+	max-width: 1360px;
+	max-height: 768px;
+	margin: 0px auto;
+}
+
 a:hover {
 	color: #666666;
 }
@@ -51,17 +57,39 @@ a:hover {
 #slider {
 	max-width: 1360px;
 	max-height: 768px;
+	height: 100%;
 	margin: 0 auto;
 }
 
-#slide-group, .slides {
+/*without slide-view div, button elements align to top of page*/
+#slide-view {
 	position: relative;
+	overflow: hidden;
+	height: 768px;
+}
+
+#slide-group {
+	position: relative;
+}
+
+#slide-group, .slides {
 	top: 0;
 	left: 0;
+	width: 100%;
 }
 
 .slides {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	display: none;
+	z-index: -1;
+}
+
+img .slides {
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: -1;
 }
 
@@ -102,3 +130,31 @@ a:hover {
 #rightBtn {
 	right: 0;
 }
+
+#slide-btns {
+	opacity: 0.6;
+	position: absolute;
+	display: block;
+	top: 600px;
+	z-index: 2;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	width: 100%;
+	min-width: 800pt;
+}
+
+.slide-btn {
+	position: relative;
+	font-size: 400%;
+	color: #666;
+	background: none;
+	border: 0px none;
+	line-height: 0.7em;
+	margin: 0 3px 0 3px;
+}
+
+.slide-btn.active, .slide-btn:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
