@@ -1,0 +1,41 @@
+body {
+	color: #50575f;
+	overflow: auto;
+}
+
+a {
+	color: #50575f;
+}
+
+h5 {
+	margin: 0;
+}
+
+/*contact page*/
+tr {
+	text-align: left;
+}
+
+table {
+	margin: 0 auto;
+}
+
+/*about me page*/
+.Ctnr {
+	display: block;
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+.subCtnr {
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.subCtnr p {
+	text-align: left;
+}

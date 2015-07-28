@@ -1,26 +1,28 @@
 body {
+	background-color: #f1f1f1;
 	position: relative;
 	font-family: Arial, sans-serif;
 	margin: 0px auto;
 	overflow: hidden;
 	max-width: 1360px;
 	max-height: 768px;
+	color: #f1f1f1;
 }
 
 a {
-	color: #fff;
+	color: #f1f1f1;
 	text-decoration: none;
 	font-size: 150%;
+}
+
+a:hover {
+	color: #c2c2b6;
 }
 
 section {
 	max-width: 1360px;
 	max-height: 768px;
 	margin: 0px auto;
-}
-
-a:hover {
-	color: #666666;
 }
 
 #header {
@@ -54,7 +56,7 @@ a:hover {
 	margin-left: 5%;
 }
 
-#slider {
+#slider, {
 	max-width: 1360px;
 	max-height: 768px;
 	height: 100%;
@@ -100,13 +102,13 @@ img .slides {
 .LRBtns {
 	position: absolute;
 	display: table;
-	border: 1px solid #fff;
+	border: none;
 	opacity: 0.3;
 	top: 35%;
 	height: 50%;
 	z-index: 2;
 	padding: 10px;
-	background: #fff;
+	background: #c2c2b6;
 	font-size: 400%;
 	line-height: 0.7em;
 }
@@ -116,6 +118,7 @@ img .slides {
 	vertical-align: middle;
 	text-align: center;
 	top: 0;
+	color: #50575f;
 }
 
 .LRBtns:hover {
@@ -146,7 +149,7 @@ img .slides {
 .slide-btn {
 	position: relative;
 	font-size: 400%;
-	color: #666;
+	color: #c2c2b6;
 	background: none;
 	border: 0px none;
 	line-height: 0.7em;
@@ -154,7 +157,6 @@ img .slides {
 }
 
 .slide-btn.active, .slide-btn:hover {
-	color: #fff;
+	color: #f1f1f1;
 	cursor: pointer;
 }
-
