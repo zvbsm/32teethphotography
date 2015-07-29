@@ -63,9 +63,7 @@ $(function() {
 		btnArray.push($btn);
 	});
 
-
 	$LRBtns.on('click', function() {
-
 		//left button
 		if($(this).is('#leftBtn')) {
 			if(thisIndex === 0) {
@@ -73,7 +71,6 @@ $(function() {
 			}else{
 				slide(thisIndex-1);
 			};
-
 		//right button
 		}else{
 			if(thisIndex < $slides.length-1) {
@@ -83,6 +80,5 @@ $(function() {
 			}
 		};
 	});
-
 	next();
 })

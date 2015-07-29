@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>Gallery</title>
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<link rel="stylesheet" href="css/sub.css" type="text/css">
 </head>
@@ -27,26 +27,24 @@
 			</div>
 		</div>
 		<div class="Ctnr">
-			<div class="subCtnr">
-				<table>
-					<tr>
-						<td>Email</td>
-						<td>:</td>
-						<td>Sample@email.com</td>
-					</tr>
-					<tr>
-						<td>Phone</td>
-						<td>:</td>
-						<td>111-555-666</td>
-					</tr>
-					<tr>
-						<td>Address</td>
-						<td>:</td>
-						<td>P.O. Box</td>
-					</tr>
-				</table>
+			<div id="gallery">
+				<img class="gaImg" id="gi1" src="images/gallery/image1-150.jpg"/>
+				<img class="gaImg" id="gi2" src="images/gallery/image2-150.jpg"/>
+				<img class="gaImg" id="gi3" src="images/gallery/image3-150.jpg"/>
+				<img class="gaImg" id="gi4" src="images/gallery/image4-150.jpg"/>
 			</div>
 		</div>
 	</section>
+	<div id="viewImage">
+		<div id="photoBox">
+		</div>
+		<footer>
+			<div id="footText">
+				<p>Description &amp; copywrite info</p>
+			</div>
+		</footer>
+	</div>
 </body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/galleryModal.js"></script>
 </html>
