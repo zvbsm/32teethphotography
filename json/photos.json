@@ -5,7 +5,7 @@
 		"thumbUrl": "images/gallery/image0-150.jpg",
 		"imageUrl": "images/gallery/image0-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 1,
@@ -13,7 +13,7 @@
 		"thumbUrl": "images/gallery/image1-150.jpg",
 		"imageUrl": "images/gallery/image1-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 2,
@@ -21,7 +21,7 @@
 		"thumbUrl": "images/gallery/image2-150.jpg",
 		"imageUrl": "images/gallery/image2-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 3,
@@ -29,7 +29,7 @@
 		"thumbUrl": "images/gallery/image3-150.jpg",
 		"imageUrl": "images/gallery/image3-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 4,
@@ -37,7 +37,7 @@
 		"thumbUrl": "images/gallery/image4-150.jpg",
 		"imageUrl": "images/gallery/image4-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 5,
@@ -45,7 +45,7 @@
 		"thumbUrl": "images/gallery/image5-150.jpg",
 		"imageUrl": "images/gallery/image5-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	},
 	{
 		"order": 6,
@@ -53,6 +53,6 @@
 		"thumbUrl": "images/gallery/image6-150.jpg",
 		"imageUrl": "images/gallery/image6-600.jpg",
 		"description": "",
-		"copywrite": "\u00A9 2015"
+		"copyright": "\u00A9 2015"
 	}
 ]
