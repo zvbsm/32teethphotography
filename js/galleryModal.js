@@ -42,7 +42,7 @@ var modal = (function() {
 }());
 
 //hide modal until image is clicked on
-$(function() {
+(function() {
 	var $modalCnt = $('#viewImage').detach();
 	$('.gaImg').on('click', function() {
 		//grab the id # of the image clicked on and create the larger version
@@ -53,4 +53,4 @@ $(function() {
 
 		modal.open({content: $modalCnt, width:640, height:405});
 	});
-});
+}());
